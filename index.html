@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        Number Analysis
+    </header>
+
+    <div id="main-box">
+        <!--Input fields-->
+        <label for="">Add here a number between 1 and 100 </label>
+       
+        <input type="number" name="number-field" id="number-field">
+       
+        <div id="btn-box">
+            <input type="button" value="Add" class="btn" onclick="addNumber()">    
+            <input type="button" value="Finish" class="btn">            
+        </div>
+
+        <!--Result Fields-->
+        <div id="main-result-field">
+            <span id="numberList">
+                <div class="lineResult">1</div>
+            </span>
+            <span id="infoField">
+                <div class="lineResult">2</div>
+            </span>
+        </div>
+    </div>
+
+    <footer>
+        Developed by Vinicius E. Beuther
+    </footer>
+</body>
+</html>
