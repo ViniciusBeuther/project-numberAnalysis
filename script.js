@@ -3,4 +3,5 @@ function addNumber() {
     let numbers = numberField.value;
     window.alert(numbers);
   }
+  numbers = []
   
